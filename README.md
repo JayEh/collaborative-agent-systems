@@ -5,7 +5,12 @@ Welcome to the comprehensive guide on "Understanding Collaborative Agent Systems
 ## Introduction to Collaborative Agent Systems
 Collaborative Agent Systems offer a forefront approach to orchestrating multi-agent collaboration in a digital workspace. Picture a domain where autonomous agents, each embodying precise roles, work in harmony, exchanging insights and converging towards shared goals. 
 
-Consider a team of software developers represented as agents: a front-end developer fine-tuning user interfaces, a back-end developer optimizing database queries, and a DevOps agent ensuring smooth deployment. As they interact, these agents collaboratively address challenges, share solutions, and drive the development process forward.
+## Anatomy of an Agent
+While all agents are programs, not all programs are agents. 
+
+A program is a set of instructions that performs a specific task or function. It follows a predefined set of rules and operates within a fixed framework. It typically runs once and then waits to be called again. Programs do not have the ability to sense their environment, act autonomously, or have their actions affect their future sensing. They are typically designed to fulfill a specific purpose and do not possess the ability to learn or adapt.
+
+On the other hand, an agent is a program that is situated within and a part of an environment. It has the ability to sense its environment and act upon it autonomously over time. Agents have their own agenda and act in pursuit of their goals. They do not require external entities to feed them input or interpret their output. Agents also have the ability to learn and change their behavior based on their previous experiences. They can continuously run until they decide to stop, and their actions can affect their future sensing.
 
 ## Dive into Language Models
 Think of Language Models as incredibly well-informed colleagues who've absorbed vast amounts of information from countless books and articles. They're not just adept at generating human-like text; they possess a remarkable adaptability. Picture a team member who can seamlessly switch roles based on the task at hand. Need insightful brainstorming? They're equipped. Seeking a comprehensive analysis? They're ready to assist. This adaptability is what makes LLMs invaluable as collaborative agents. They can follow instructions, handle varied tasks and contribute an impressive depth of knowledge.
