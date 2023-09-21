@@ -12,6 +12,8 @@ A program is a set of instructions that performs a specific task or function. It
 
 On the other hand, an agent is a program that is situated within and a part of an environment. It has the ability to sense its environment and act upon it autonomously over time. Agents have their own agenda and act in pursuit of their goals. They do not require external entities to feed them input or interpret their output. Agents also have the ability to learn and change their behavior based on their previous experiences. They can continuously run until they decide to stop, and their actions can affect their future sensing.
 
+Agents have the ability to operate independently and autonomously, adapt to changing circumstances, and make decisions based on their own goals. 
+
 ## Dive into Language Models
 Think of Language Models as incredibly well-informed colleagues who've absorbed vast amounts of information from countless books and articles. They're not just adept at generating human-like text; they possess a remarkable adaptability. Picture a team member who can seamlessly switch roles based on the task at hand. Need insightful brainstorming? They're equipped. Seeking a comprehensive analysis? They're ready to assist. This adaptability is what makes LLMs invaluable as collaborative agents. They can follow instructions, handle varied tasks and contribute an impressive depth of knowledge.
 
