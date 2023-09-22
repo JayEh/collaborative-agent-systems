@@ -3,9 +3,9 @@ Welcome to the comprehensive guide on "Understanding Collaborative Agent Systems
 # Understanding Collaborative Agent Systems 
 
 ## Introduction to Collaborative Agent Systems
-Collaborative Agent Systems offer a forefront approach to orchestrating multi-agent collaboration in a digital workspace. Picture a domain where autonomous agents, each embodying precise roles, work in harmony, exchanging insights and converging towards shared goals. 
+Collaborative Agent Systems represent a pioneering methodology in facilitating intricate collaboration amongst multiple agents within a digital environment. Envision a paradigm where distinct autonomous agents, each with well-defined roles, seamlessly collaborate, share data, and collectively progress towards predetermined objectives. This research aims to explore the feasibility and implications of constructing a fully autonomous workforce, with the potential to significantly alter the landscape of human cognitive labor in various sectors.
 
-## Anatomy of an Agent
+## Anatomy of a Software Agent
 While all agents are programs, not all programs are agents. 
 
 A program is a set of instructions that performs a specific task or function. It follows a predefined set of rules and operates within a fixed framework. It typically runs once and then waits to be called again. Programs do not have the ability to sense their environment, act autonomously, or have their actions affect their future sensing. They are typically designed to fulfill a specific purpose and do not possess the ability to learn or adapt.
@@ -13,6 +13,33 @@ A program is a set of instructions that performs a specific task or function. It
 On the other hand, an agent is a program that is situated within and a part of an environment. It has the ability to sense its environment and act upon it autonomously over time. Agents have their own agenda and act in pursuit of their goals. They do not require external entities to feed them input or interpret their output. Agents also have the ability to learn and change their behavior based on their previous experiences. They can continuously run until they decide to stop, and their actions can affect their future sensing.
 
 Agents have the ability to operate independently and autonomously, adapt to changing circumstances, and make decisions based on their own goals. 
+
+## Taxonomy of Autonomous Software Agents
+Classifying software agents with a clear taxonomy is essential for understanding their specific roles and functions in autonomous systems. The following classifications provide a structured overview, highlighting the diverse roles and capabilities of these agents in different contexts.
+
+**By Control Structures**
+- Reactive Agents: Operate based on a set of predefined rules without internal states.
+- Deliberative Agents: Have an internal state and decide actions based on reasoning.
+- Hybrid Agents: Combine both reactive and deliberative behaviors.
+
+**By Environments**
+- Database Agents: Operate within databases to retrieve, update, and manage data.
+- File System Agents: Navigate and manage file systems, ensuring data integrity and organization.
+- Network Agents: Ensure smooth network operations, traffic management, and fault detection.
+- Internet Agents: Operate on the Internet, managing tasks like web crawling, online transaction, etc.
+
+**By Language (Natural Language Constructs for Instruction)**
+- Imperative Instructions: Direct commands where the agent is told exactly what to do. For example, "Open the file named 'report.docx'."
+- Declarative Instructions: Statements that declare knowledge or facts, leaving it up to the agent to decide the best course of action. For instance, "I need information on the solar system."
+- Interrogative Instructions: Questions posed to the agent which it needs to respond to or act upon. E.g., "What's the weather like tomorrow?"
+- Conditional Instructions: Commands that are contingent upon certain conditions. Such as, "If it's going to rain tomorrow, remind me to carry an umbrella."
+- Expressive Instructions: Statements that express feelings, emotions, or states but might still require the agent to take action. For example, "I'm feeling cold" might prompt the agent to adjust the room temperature.
+
+**By Applications**
+- E-commerce Agents: Operate in the e-commerce domain, handling tasks like recommendation, price comparison, etc.
+- Security Agents: Work in the realm of computer security, detecting threats, and ensuring system integrity.
+- Monitoring Agents: Continuously monitor systems to ensure optimal operation and detect failures.
+- Personal Assistants: Provide personalized services to users, such as scheduling, reminders, etc.
 
 ## Dive into Language Models
 Think of Language Models as incredibly well-informed colleagues who've absorbed vast amounts of information from countless books and articles. They're not just adept at generating human-like text; they possess a remarkable adaptability. Picture a team member who can seamlessly switch roles based on the task at hand. Need insightful brainstorming? They're equipped. Seeking a comprehensive analysis? They're ready to assist. This adaptability is what makes LLMs invaluable as collaborative agents. They can follow instructions, handle varied tasks and contribute an impressive depth of knowledge.
