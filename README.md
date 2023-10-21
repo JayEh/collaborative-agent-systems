@@ -89,7 +89,7 @@ Understanding this alignment of Language Models with Bloom's Taxonomy highlights
 ## Recognizing the Power & Limitations of GPT
 These models come with unparalleled knowledge, embedded through extensive training. They exhibit emergent capabilities like logical reasoning and in-context learning. However, they also possess a creative streak, generating content that, while innovative, may not always be grounded in their training data. 
 
-Remember: we get to choose then balance between creativity and data-driven outputs.
+**Remember:** we get to choose the balance between creativity and data-driven outputs.
 
 ## Understanding the Different Types of Autonomous Agents
 To truly appreciate the power of collaborative systems, we need to delve into the intrinsic abilities of the agents. These entities aren't just about labels; they are defined by their core functionalities:
