@@ -165,16 +165,12 @@ Some agents operate in fixed scenarios where outcomes are predictable. Here, MDP
 
 ## Practical Steps for Implementing Collaborative Agent Systems
 
-Acknowledge Limitations: Understand the boundaries of agents.
-Harness Creativity: Tap into the agents' generative capabilities for brainstorming.
-Ground in Reality: Always verify outputs, ensuring they align with factual data.
-
-To effectively implement roles, functions, behaviors, SOPs, and knowledge sharing within the MetaGPT framework, a practitioner should adhere to the following logical progression:
+To effectively implement roles, functions, behaviors, SOPs, and knowledge sharing within the framework, a practitioner should adhere to the following logical progression:
 
 **Creating Roles**:
 - Define specialized role classes by inheriting from the base Role class.
 - Each role class should encompass attributes like name, profile, goal, constraints, and description.
-- Use natural language descriptions to initialize roles within the MetaGPT framework.
+- Use natural language descriptions to initialize roles within the framework.
 - Ensure the descriptions meticulously define the responsibilities and constraints of each role.
 - _Documentation Tip_: Maintain a centralized role directory for clarity and easy reference.
 
@@ -197,4 +193,3 @@ To effectively implement roles, functions, behaviors, SOPs, and knowledge sharin
 - Automate message dispatch to alert the relevant agents as per their registered interests.
 - Preserve an internal memory repository within each agent to categorize and swiftly access subscribed messages.
 - Guarantee that any amendments to messages synchronize across all interconnected agent memories, upholding data uniformity.
-
